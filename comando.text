@@ -1,0 +1,26 @@
+git init ... iniciar repositorio
+git add ... pasar el archivo a staging (ram)
+git rm ... borrar de ram
+commit -m ''comentarios''... pasar archivo a repositorio
+git config --global user.name "    " ...
+git config --globlal user.email "    " 
+git config --list
+git log archivo.txt
+git show archivo.txt ...ver cambios
+git diff (los dos numeros id de los commit)
+git log
+git reset ########  hard ... volver a una version desaparece todo lo anterior
+git reset ########  hard ... volver a una version pero no borra el staging
+git diff ... ver cambios generales
+git log --stat ... cambios en bit
+git checkout  ####### archivo.txt ... traer version de archivo
+git checkout  master archivo.txt ... traer version ultima commit
+git commit -am ... hace el add y el commit juntos solo para archivos que hallan tenido un add
+git branch nombre-de-la-rama ... crear rama
+git checkout nombre-de-la-rama ... moverse para otra rama
+git marge nombre-de-la-rama-que-me-quiero-traer
+git remote add origin urls ... traer urls del repositorio de urls
+git remote
+git push origin nombre-de-la-rama... enviar rama a github
+git pull origin nombre-de-la-rama ... traerte github
+git pull origin nombre-de-la-rama --allow-unrelated-histories ... para archvos no relacionados

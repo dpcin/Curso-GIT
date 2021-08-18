@@ -18,7 +18,7 @@ git checkout  master archivo.txt ... traer version ultima commit
 git commit -am ... hace el add y el commit juntos solo para archivos que hallan tenido un add
 git branch nombre-de-la-rama ... crear rama
 git checkout nombre-de-la-rama ... moverse para otra rama
-git marge nombre-de-la-rama-que-me-quiero-traer
+git merge nombre-de-la-rama-que-me-quiero-traer
 git remote add origin urls ... traer urls del repositorio de urls
 git remote
 git push origin nombre-de-la-rama... enviar rama a github

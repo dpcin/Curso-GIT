@@ -31,3 +31,5 @@ git log -all --graph ...grafico
 git log -all --graph --decorate --oneline
 git tag -a v0.1 -m "comentario" hash-del cambio"
 git show-ref --tags .. ver relacion de tag
+git tag -d nombre-de-tag .. borrar tag local
+git push origin :refs/tags/nombre del tag

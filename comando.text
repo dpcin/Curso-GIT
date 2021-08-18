@@ -27,3 +27,7 @@ git pull origin nombre-de-la-rama --allow-unrelated-histories ... para archvos n
 ssh-keygen -t rsa -b 4096 -C "coreo" ... crear llaves
 $(ssh-agent -s) ... comprobar que ssh esta corriendo
 ssh-add ./diereccion/llaveprivada... agegar llaves al repositorio
+git log -all --graph ...grafico
+git log -all --graph --decorate --oneline
+git tag -a v0.1 -m "comentario" hash-del cambio"
+git show-ref --tags .. ver relacion de tag

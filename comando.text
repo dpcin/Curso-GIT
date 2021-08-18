@@ -24,3 +24,6 @@ git remote
 git push origin nombre-de-la-rama... enviar rama a github
 git pull origin nombre-de-la-rama ... traerte github
 git pull origin nombre-de-la-rama --allow-unrelated-histories ... para archvos no relacionados
+ssh-keygen -t rsa -b 4096 -C "coreo" ... crear llaves
+$(ssh-agent -s) ... comprobar que ssh esta corriendo
+ssh-add ./diereccion/llavepublica.pub ... agegar llaves al repositorio
